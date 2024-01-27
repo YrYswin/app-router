@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Nova+Square&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+
+.container {
+   max-width: 1200px;
+   margin: 20px auto;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+}
+
+.item {
+   background-color: rgba(145, 102, 102, 0.6);
+   border: 1px red solid;
+   padding: 10px;
+   border-radius: 4px;
+   position: relative;
+   text-decoration: none;
+   color: #eee;
+   text-shadow:
+      .1px .1px 1px black,
+      -.1px .1px 1px black,
+      .1px -.1px 1px black,
+      -.1px -.1px 1px black;
+}
+
+.item h2 {
+   margin: 10px auto;
+}
+
+.item .price,
+h4 {
+   display: flex;
+   justify-content: space-between;
+   font-weight: 300;
+   margin-bottom: 6px;
+}
+
+.item img {
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.oldPrice {
+   text-decoration: line-through;
+   color: rgb(200, 98, 63);
+}
+
+.item>p {
+   margin: 10px auto;
+}
+
+.item .items {
+   display: flex;
+   justify-content: space-between;
+}
+
+.item .items img {
+   width: 90px;
+}
+
+.item .disc {
+   position: absolute;
+   background-color: red;
+   padding: 3px 4px 3px 4px;
+   border-radius: 4px;
+   left: 13px;
+   top: 13px;
+}
+
+.item .newPrice {
+   color: greenyellow;
+   font-size: 20px;
+   font-weight: 600;
+}
