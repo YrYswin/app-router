@@ -1,0 +1,27 @@
+.personsList {
+   width: 1000px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   gap: 20px;
+}
+
+.personItem {
+   padding: 6px;
+   border-radius: 6px;
+   border: 2px outset gray;
+   background-image: url("../../image/background-items.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: 10px 20px 40px rgba(27, 26, 26, 0.6);
+}
+
+.personItem>img {
+   margin: 10px;
+}
+
+.personItem>.title {
+   display: flex;
+   justify-content: space-between;
+   text-align: none;
+}

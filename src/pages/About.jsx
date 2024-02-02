@@ -4,6 +4,7 @@ import AboutCom from '../components/About/AboutCom'
 function About() {
    return (
       <div>
+
          <AboutCom />
       </div>
    )
