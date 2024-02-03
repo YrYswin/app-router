@@ -31,7 +31,7 @@ export default function App() {
                <Route path="/shop/:id" element={<Shop />} />
                <Route path="/category/:name" element={<Category />} />
                <Route path="/foodpage/:id" element={<FoodPage />} />
-               <Route path="/personpage/:id" element={<PersonPage />} />
+               <Route path="/exam/:id" element={<PersonPage />} />
             </Route>
          </Routes>
       </div>

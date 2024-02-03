@@ -1,5 +1,5 @@
 .personsList {
-   width: 1000px;
+   width: 1200px;
    margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(5, 1fr);
@@ -17,11 +17,7 @@
 }
 
 .personItem>img {
-   margin: 10px;
-}
-
-.personItem>.title {
-   display: flex;
-   justify-content: space-between;
-   text-align: none;
+   box-sizing: border-box;
+   width: 90%;
+   margin: 10px auto;
 }
