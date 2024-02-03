@@ -18,13 +18,13 @@ function PersonPage() {
    }
    useEffect(() => {
       getPerson(id)
-   })
+   }, [])
 
 
    return (
       <div>
-         <img src={person.image} alt={person.title} />
-         <p>{person.title}</p>
+         <img src={person.image} alt={person.name} />
+         <p>{person.name}</p>
       </div>
    )
 }

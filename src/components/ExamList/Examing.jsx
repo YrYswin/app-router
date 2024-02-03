@@ -18,7 +18,7 @@ function Examing() {
    }
    useEffect(() => {
       getPersons()
-   })
+   }, [])
 
    return (
       <div>
